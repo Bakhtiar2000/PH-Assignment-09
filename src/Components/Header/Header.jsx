@@ -12,7 +12,7 @@ const Header = () => {
                 <Link to="/appliedJobs">Applied Jobs</Link>
                 <Link to="/blog">Blog</Link>
             </div>
-            <button>Start Applying</button>
+            <button className='btn'>Start Applying</button>
         </nav>
     );
 };
