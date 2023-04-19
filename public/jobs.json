@@ -1,0 +1,50 @@
+[
+    {
+      "id": "6440167b4340b270dbec764d",
+      "img": "../assets/Logo/google-1-1 1.png",
+      "company": "Google LLC",
+      "title": "Technical Database Engineer",
+      "location": "Dhaka, Bangladesh",
+      "salary": "100K - 150K"
+    },
+    {
+      "id": "6440167b61e177a98fe58320",
+      "img": "../assets/Logo/netflix-4 1.png",
+      "company": "Netflix",
+      "title": "Senior Product Designer",
+      "location": "Dhaka, Bangladesh",
+      "salary": "100K - 150K"
+    },
+    {
+      "id": "6440167bf4e3459042ca726d",
+      "img": "../assets/Logo/tesla-9 1.png",
+      "company": "Tesla",
+      "title": "Software Engineer",
+      "location": "Dhaka, Bangladesh",
+      "salary": "100K - 150K"
+    },   
+    {
+      "id": "6440167b4340b270dbec764d",
+      "img": "../assets/Logo/google-1-1 1.png",
+      "company": "Google LLC",
+      "title": "Technical Database Engineer",
+      "location": "Dhaka, Bangladesh",
+      "salary": "100K - 150K"
+    },
+    {
+      "id": "6440167b61e177a98fe58320",
+      "img": "../assets/Logo/netflix-4 1.png",
+      "company": "Netflix",
+      "title": "Senior Product Designer",
+      "location": "Dhaka, Bangladesh",
+      "salary": "100K - 150K"
+    },
+    {
+      "id": "6440167bf4e3459042ca726d",
+      "img": "../assets/Logo/tesla-9 1.png",
+      "company": "Tesla",
+      "title": "Software Engineer",
+      "location": "Dhaka, Bangladesh",
+      "salary": "100K - 150K"
+    }  
+  ]

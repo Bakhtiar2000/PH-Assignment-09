@@ -1,5 +1,4 @@
 .container {
-    text-align: center;
     margin-top: 120px;
     display: flex;
     flex-direction: column;
@@ -9,7 +8,7 @@
 .title {
     font-weight: 700;
     font-size: 48px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .description {
@@ -25,7 +24,7 @@
 }
 
 .job {
-    padding: 20px;
+    padding: 20px 40px;
     background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
     border-radius: 8px;
 }
