@@ -1,0 +1,22 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link{
+    display: flex;
+    gap: 25px;
+    font-size: 20px;
+}
+
+nav p{
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+button {
+    padding: 19px 28px;
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+}
