@@ -1,0 +1,30 @@
+.job-container {
+    padding: 40px;
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+}
+
+.job-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn-job-type {
+    border: 1px solid #9873FF;
+    color: #9873FF;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.location-salary {
+    display: flex;
+    gap: 20px;
+}
+
+.location,
+.salary {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    gap: 8px;
+}
