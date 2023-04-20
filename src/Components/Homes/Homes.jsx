@@ -18,7 +18,7 @@ const Homes = () => {
                     {
                         jobs.map(job=> <FeaturedJobs
                             key={job.id}
-                            jobs={jobs}
+                            job={job}
                         ></FeaturedJobs>)
                     }
                 </div>

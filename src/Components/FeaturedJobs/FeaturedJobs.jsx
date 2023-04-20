@@ -1,9 +1,9 @@
 import React from 'react';
 import './FeaturedJobs.css'
 
-const FeaturedJobs = ({ jobs }) => {
-    console.log(jobs)
-    const { img, company, title, location, salary } = jobs;
+const FeaturedJobs = ({ job }) => {
+    console.log(job)
+    const { img, company, title, location, salary } = job;
     return (
         <div className='job-container'>
             <img src={img} alt="" />

@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;/**/
+    /* border: 1px solid red; */
 }
 
 .top-container p {
@@ -33,7 +33,6 @@
 @media only screen and (max-width:688px) {
     .top-container{
         display: block;
-        max-width: 250px; /**/
     }
 
     .top-container img {
@@ -50,6 +49,5 @@
     .sub-title {
         font-weight: 200;
         font-size: 15px;
-        max-width: 250px; /**/
     }
 }

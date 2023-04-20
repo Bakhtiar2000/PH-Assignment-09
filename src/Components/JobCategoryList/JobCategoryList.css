@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid red;/**/
+    /* border: 1px solid red; */
 }
 
 .title {
@@ -33,9 +33,6 @@
 
 /*phone devices*/
 @media only screen and (max-width:688px) {
-    .container{
-        width: 250px;
-    }
 
     .jobs{
         display: block;
@@ -56,6 +53,5 @@
         font-size: 16px;
         margin-bottom: 30px;
         text-align: center;
-        max-width: 250px; /**/
     }
 }    
