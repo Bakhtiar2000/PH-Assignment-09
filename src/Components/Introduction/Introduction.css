@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 1px solid red;/**/
 }
 
 .top-container p {
@@ -17,6 +18,7 @@
     font-weight: 500;
     font-size: 18px;
     max-width: 500px;
+    border: 1px solid red;/**/
 }
 
 .purple {
@@ -26,4 +28,29 @@
 .top-container img {
     width: 816px;
     height: 744px;
+}
+
+/*phone devices*/
+@media only screen and (max-width:688px) {
+    .top-container{
+        display: block;
+        max-width: 250px; /**/
+    }
+
+    .top-container img {
+        width: 272px;
+        height: 248px;
+        margin-top: 20px;
+    }
+
+    .top-title {
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    .sub-title {
+        font-weight: 200;
+        font-size: 15px;
+        max-width: 250px; /**/
+    }
 }

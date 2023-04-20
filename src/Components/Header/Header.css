@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 1px solid red;/**/
 }
 
 .link{
@@ -21,3 +22,22 @@ nav p{
     border-radius: 8px;
     color: white;
 }
+
+
+/*phone devices*/
+@media only screen and (max-width:688px) {
+    .navbar{
+        display: block;
+        max-width: 250px; /**/
+    }
+
+    .link{
+        flex-direction: column;
+        gap: 5px;
+        margin-bottom: 20px;
+    }
+
+    .btn{
+        padding: 15px 20px;
+    }
+}    

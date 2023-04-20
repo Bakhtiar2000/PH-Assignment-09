@@ -21,10 +21,22 @@
     gap: 20px;
 }
 
-.location,
-.salary {
+.location, .salary {
     display: flex;
     justify-self: center;
     align-items: center;
     gap: 8px;
+}
+
+/*phone devices*/
+@media only screen and (max-width:688px) {
+    .job-container{
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .location-salary{
+        display: block;
+        margin-top: 15px;
+    }
 }

@@ -6,6 +6,7 @@ const FeaturedJobs = ({ jobs }) => {
     const { img, company, title, location, salary } = jobs;
     return (
         <div className='job-container'>
+            <img src={img} alt="" />
             <p>{title}</p>
             <p>{company}</p>
             <div className='job-buttons'>

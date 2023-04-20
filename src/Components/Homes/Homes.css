@@ -1,9 +1,10 @@
 .featured-jobs-container{
     margin-top: 120px;
-    margin-bottom: 120px;
+    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px solid red;/**/
 }
 
 .jobs-container{
@@ -11,4 +12,15 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
     margin-bottom: 50px;
+}
+
+
+/*phone devices*/
+@media only screen and (max-width:688px) {
+    .jobs-container{
+        display: block;
+    }
+    .featured-jobs-container{
+        max-width: 250px;
+    }
 }

@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px solid red;/**/
 }
 
 .title {
@@ -28,3 +29,33 @@
     background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
     border-radius: 8px;
 }
+
+
+/*phone devices*/
+@media only screen and (max-width:688px) {
+    .container{
+        width: 250px;
+    }
+
+    .jobs{
+        display: block;
+    }
+
+    .job{
+        margin-bottom: 20px;
+    }
+
+    .title {
+        font-weight: 500;
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+
+    .description {
+        font-weight: 300;
+        font-size: 16px;
+        margin-bottom: 30px;
+        text-align: center;
+        max-width: 250px; /**/
+    }
+}    
