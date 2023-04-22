@@ -24,7 +24,7 @@ const FeaturedJobs = ({ job }) => {
                     <p>Salary: {salary}</p>
                 </div>
             </div>
-            <Link to={`/${id}`}><button className='btn' >View Details</button></Link>
+            <Link to={`/jobDetails/${id}`}><button className='btn' >View Details</button></Link>
         </div>
     );
 };
