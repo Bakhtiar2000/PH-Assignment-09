@@ -9,7 +9,10 @@
       "educational_requirements": "Bachelor's or higher degree in Computer Science or a related field",
       "experiences": "3+ years of experience in software engineering",
       "location": "Dhaka, Bangladesh",
-      "salary": "100K - 150K"
+      "salary": "100K - 150K",
+      "phone": "01750-00 00 01",
+      "email": "googlebd@gmail.com",
+      "address": "Uttara 22, Dhaka, Bangladesh"
     },
     {
       "id": "2",
@@ -21,7 +24,10 @@
       "educational_requirements": "Bachelor's or higher degree in Film, Communications, or a related field",
       "experiences": "5+ years of experience in content management or a related field",
       "location": "Dhaka, Bangladesh",
-      "salary": "100K - 150K"
+      "salary": "100K - 150K",
+      "phone": "01750-00 00 02",
+      "email": "netflixbd@gmail.com",
+      "address": "Banani 38, Dhaka, Bangladesh"
     },
     {
       "id": "3",
@@ -33,7 +39,10 @@
       "educational_requirements": "Bachelor's or higher degree in Mechanical Engineering or a related field",
       "experiences": "3+ years of experience in mechanical engineering or a related field",
       "location": "Dhaka, Bangladesh",
-      "salary": "100K - 150K"
+      "salary": "100K - 150K",
+      "phone": "01750-00 00 03",
+      "email": "teslabd@gmail.com",
+      "address": "Dhanmondi 32, Dhaka, Bangladesh"
     },   
     {
       "id": "4",
@@ -45,7 +54,10 @@
       "educational_requirements": "Master's or higher degree in Computer Science, Statistics, or a related field",
       "experiences": "2+ years of experience in data science or a related field",
       "location": "Dhaka, Bangladesh",
-      "salary": "100K - 150K"
+      "salary": "100K - 150K",
+      "phone": "01750-00 00 04",
+      "email": "airbnbbd@gmail.com",
+      "address": "Mirpur 12, Dhaka, Bangladesh"
     },
     {
       "id": "5",
@@ -57,7 +69,10 @@
       "educational_requirements": "Bachelor's or higher degree in Marketing, Communications, or a related field",
       "experiences": "2+ years of experience in marketing or a related field",
       "location": "Dhaka, Bangladesh",
-      "salary": "100K - 150K"
+      "salary": "100K - 150K",
+      "phone": "01750-00 00 05",
+      "email": "yahoobd@gmail.com",
+      "address": "Muhammadpur 02, Dhaka, Bangladesh"
     },
     {
       "id": "6",
@@ -69,6 +84,9 @@
       "educational_requirements": "Bachelor's or higher degree in Business Administration, Operations Management, or a related field",
       "experiences": "5+ years of experience in operations management or a related field",
       "location": "Dhaka, Bangladesh",
-      "salary": "100K - 150K"
+      "salary": "100K - 150K",
+      "phone": "01750-00 00 06",
+      "email": "amazonbd@gmail.com",
+      "address": "Gulshan 01, Dhaka, Bangladesh"
     }  
   ]

@@ -1,0 +1,34 @@
+.details-container {
+    margin: 20px auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.details-title {
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.details-description {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.data-details-container{
+    padding: 20px;
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.1) 0%, rgba(152, 115, 255, 0.1) 100%);
+border-radius: 8px;
+}
