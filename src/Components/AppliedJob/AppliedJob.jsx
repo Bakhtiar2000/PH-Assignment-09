@@ -2,9 +2,9 @@ import React from 'react';
 import './AppliedJob.css'
 import { Link } from 'react-router-dom';
 
-const AppliedJob = ({ job }) => {
-    console.log(job)
-    const {id, img, title, company, location, salary} = job
+const AppliedJob = ({ singleJob }) => {
+    console.log(singleJob)
+    const {id, img, title, company, location, salary, job_type, job_time} = singleJob
     return (
         <div className='applied-job-container'>
             <div className='applied-job-flex'>
@@ -15,9 +15,10 @@ const AppliedJob = ({ job }) => {
                     <h3>{title}</h3>
                     <p>{company}</p>
                     <div className='applied-job-buttons'>
-                        <button className='applied-job-btn-job-type'>Remote</button>
-                        <button className='applied-job-btn-job-type'>Full Time</button>
+                        <button className='applied-job-btn-job-type'>{job_type}</button>
+                        <button className='applied-job-btn-job-type'>{job_time}</button>
                     </div>
+                    
                     <div className="applied-job-location-salary">
                         <div className="applied-job-location">
                             <img src="../../../assets/Icons/Frame-4.png" alt="" />

@@ -12,6 +12,7 @@ import Statistics from './Components/Statistics/Statistics';
 import AppliedJobs from './Components/AppliedJobs/AppliedJobs';
 import Blog from './Components/Blog/Blog';
 import JobDetails from './Components/JobDetails/JobDetails';
+import CustomCartLoader from './Components/CustomCartLoader';
 
 
 
@@ -31,10 +32,6 @@ const router = createBrowserRouter([
         element: <Statistics></Statistics>,
       },
       {
-        path: "appliedJobs",
-        element: <AppliedJobs></AppliedJobs>,
-      },
-      {
         path: "blog",
         element: <Blog></Blog>,
       },
@@ -44,9 +41,9 @@ const router = createBrowserRouter([
         loader: () => fetch('/jobs.json')
       },
       {
-        path: "/appliedJobs/:id",
+        path: "appliedJobs",
         element: <AppliedJobs></AppliedJobs>,
-        loader: () => fetch('/jobs.json')
+        loader: CustomCartLoader
       },
     ]
   },

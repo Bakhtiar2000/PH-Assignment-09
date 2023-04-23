@@ -4,15 +4,15 @@ import JobDetails from '../JobDetails/JobDetails';
 import { Link } from 'react-router-dom';
 
 const FeaturedJobs = ({ job }) => {
-    const {id, img, company, title, location, salary } = job;
+    const {id, img, company, title, location, salary,job_type, job_time } = job;
     return (
         <div className='job-container'>
             <img src={img} alt="" />
             <p>{title}</p>
             <p>{company}</p>
             <div className='job-buttons'>
-                <button className='btn-job-type'>Remote</button>
-                <button className='btn-job-type'>Full Time</button>
+                <button className='btn-job-type'>{job_type}</button>
+                <button className='btn-job-type'>{job_time}</button>
             </div>
             <div className="location-salary">
                 <div className="location">
