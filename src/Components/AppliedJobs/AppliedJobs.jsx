@@ -51,7 +51,7 @@ const AppliedJobs = () => {
                     </button>
                     <div className="dropdown-content">
                         <a href="#">Remote</a>
-                        <a href="#">Full Time</a>
+                        <a href="#">Onsite</a>
                     </div>
                 </div>
                 </div>
