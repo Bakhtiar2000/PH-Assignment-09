@@ -15,7 +15,7 @@ const Homes = () => {
         setShowAllData((prevShowAllData) => !prevShowAllData);
     };
     return (
-        <div>
+        <div className='homes-container'>
             <Introduction></Introduction>
             <JobCategoryList></JobCategoryList>
             <div className='featured-jobs-container'>

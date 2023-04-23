@@ -23,7 +23,6 @@
 
 .location, .salary {
     display: flex;
-    justify-self: center;
     align-items: center;
     gap: 8px;
 }

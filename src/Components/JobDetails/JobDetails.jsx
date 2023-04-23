@@ -1,12 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { useLoaderData, useParams } from 'react-router-dom';
+import { Link, useLoaderData, useParams } from 'react-router-dom';
 import './JobDetails.css'
 
 const JobDetails = () => {
     const params = useParams();
-    console.log(params.id)
     const jobInfo = useLoaderData();
-    console.log(jobInfo.id)
     const [job, setJob] = useState({})
 
     useEffect(() => {
@@ -18,10 +16,12 @@ const JobDetails = () => {
             })
     }, [])
 
-    const { title, description, responsibilities, educational_requirements, experiences, location, salary, phone, email, address } = job;
+    const {id, title, description, responsibilities, educational_requirements, experiences, salary, phone, email, address } = job;
 
     return (
-        <div className='details-container'>
+        <div>
+            <h2 className='Details-heading'>Job Details</h2>
+            <div className='details-container'>
             <div>
                 <p className='details-description'><span className='details-title'>Job Description: </span>{description}</p>
                 <p className='details-description'><span className='details-title'>Job Responsibility: </span>{responsibilities}</p>
@@ -59,8 +59,9 @@ const JobDetails = () => {
                         <p>address: {address}</p>
                     </div>
                 </div>
-                <button className='btn'>Apply Now</button>
+                <Link to={`/appliedJobs/${id}`}><button className='btn btn-width'>Apply Now</button></Link>
             </div>
+        </div>
         </div>
     );
 };
