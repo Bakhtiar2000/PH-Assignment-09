@@ -16,11 +16,11 @@ const FeaturedJobs = ({ job }) => {
             </div>
             <div className="location-salary">
                 <div className="location">
-                    <img src="../../../assets/Icons/Frame-4.png" alt="" />
+                    <img src="./assets/Icons/Frame-4.png" alt="" />
                     <p>{location}</p>
                 </div>
                 <div className="salary">
-                    <img src="../../../assets/Icons/Frame.png" alt="" />
+                    <img src="./assets/Icons/Frame.png" alt="" />
                     <p>Salary: {salary}</p>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 [
     {
       "id": "1",
-      "img": "../assets/Logo/google-1-1 1.png",
+      "img": "./assets/Logo/google-1-1 1.png",
       "company": "Google LLC",
       "title": "Software Engineer",
       "job_type": "Remote",
@@ -18,7 +18,7 @@
     },
     {
       "id": "2",
-      "img": "../assets/Logo/netflix-4 1.png",
+      "img": "./assets/Logo/netflix-4 1.png",
       "company": "Netflix",
       "title": "Content Manager",
       "job_type": "Remote",
@@ -35,7 +35,7 @@
     },
     {
       "id": "3",
-      "img": "../assets/Logo/tesla-9 1.png",
+      "img": "./assets/Logo/tesla-9 1.png",
       "company": "Tesla",
       "title": "Mechanical Engineer",
       "job_type": "Onsite",
@@ -52,7 +52,7 @@
     },   
     {
       "id": "4",
-      "img": "../assets/Logo/Group 10021.png",
+      "img": "./assets/Logo/Group 10021.png",
       "company": "Airbnb",
       "title": "Data Scientist",
       "job_type": "Onsite",
@@ -69,7 +69,7 @@
     },
     {
       "id": "5",
-      "img": "../assets/Logo/Yahoo-Logo-2009.png",
+      "img": "./assets/Logo/Yahoo-Logo-2009.png",
       "company": "Yahoo",
       "title": "Marketing Specialist",
       "job_type": "Onsite",
@@ -86,7 +86,7 @@
     },
     {
       "id": "6",
-      "img": "../assets/Logo/Amazon-Logo.png",
+      "img": "./assets/Logo/Amazon-Logo.png",
       "company": "Amazon",
       "title": "Operations Manager",
       "job_type": "Remote",

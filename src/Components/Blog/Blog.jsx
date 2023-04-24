@@ -3,7 +3,7 @@ import './Blog.css'
 
 const Blog = () => {
     return (
-        <div>
+        <div className='blog'>
             <h3>1. When do we use Context API?</h3>
             <p>= Context API is used in React applications to manage state that needs to be accessed by multiple components in a tree hierarchy. It helps to avoid prop drilling (manual process of passing down props through multiple levels of components). Context API allows you to create a global state that can be accessed by any component in the application without having to pass it down manually.</p>
 

@@ -19,26 +19,26 @@ const Singlejob = ({singleJob, handleAppliedJob}) => {
                     <h3>Job Details</h3>
                     <hr />
                     <div className='flex'>
-                        <img src="../../../assets/Icons/Frame.png" alt="" />
+                        <img src="./assets/Icons/Frame.png" alt="" />
                         <p>Salary: {salary} (Per Month)</p>
                     </div>
                     <div className='flex'>
-                        <img src="../../../assets/Icons/Frame-1.png" alt="" />
+                        <img src="./assets/Icons/Frame-1.png" alt="" />
                         <p>Job Title: {title} </p>
                     </div>
 
                     <h3>Contact Information</h3>
                     <hr />
                     <div className='flex'>
-                        <img src="../../../assets/Icons/Frame-2.png" alt="" />
+                        <img src="./assets/Icons/Frame-2.png" alt="" />
                         <p>Phone: {phone}</p>
                     </div>
                     <div className='flex'>
-                        <img src="../../../assets/Icons/Frame-3.png" alt="" />
+                        <img src="./assets/Icons/Frame-3.png" alt="" />
                         <p>email: {email}</p>
                     </div>
                     <div className='flex'>
-                        <img src="../../../assets/Icons/Frame-4.png" alt="" />
+                        <img src="./assets/Icons/Frame-4.png" alt="" />
                         <p>address: {address}</p>
                     </div>
                 </div>

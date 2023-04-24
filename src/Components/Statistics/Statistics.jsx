@@ -46,10 +46,10 @@ const Statistics = () => {
         },
       ];
     return (
-        <div>
+        <div className='areachart'>
         <AreaChart
-            width={500}
-            height={400}
+            width={1000}
+            height={600}
             data={data}  
         >
             <XAxis dataKey="A_Id"></XAxis>
